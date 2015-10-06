@@ -49,7 +49,7 @@ gulp.task('templates', function() {
 		.pipe(jade({
 			pretty: true
 		}))
-		.pipe(gulp.dest('./dest/templates'))
+		.pipe(gulp.dest('./dist/templates'))
 		.pipe(reload({stream:true}));
 });
 
@@ -68,7 +68,7 @@ gulp.task('image', function () {
 // JavaScript Task
 gulp.task('scripts', function () {
 	gulp.src('assets/scripts/*.js')
-		.pipe(gulp.dest('./dest'))
+		.pipe(gulp.dest('./dist/js'))
 		.pipe(reload({stream:true}));
 });
 
