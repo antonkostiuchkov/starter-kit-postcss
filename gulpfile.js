@@ -6,9 +6,11 @@ var gulp 					= require('gulp');
 		normalize			= require('postcss-normalize');
 		stylus 				= require('gulp-stylus');
 		jade        	= require('gulp-jade');
-		imagemin    	= require('gulp-imagemin');
+		// imagemin    	= require('gulp-imagemin');
 		browserSync 	= require('browser-sync');
 		reload      	= browserSync.reload;
+		rucksack			= require('rucksack-css');
+		rupture			= require('rupture');
 
 		// typographic = require('typographic');
 		// nib = require('nib');
@@ -23,7 +25,8 @@ gulp.task('styles', function(){
 		csswring,
 		lost,
 		normalize,
-		autoprefixer
+		autoprefixer,
+		rucksack
 	];
 
 	return gulp.src('assets/styles/main.styl')

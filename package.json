@@ -9,16 +9,17 @@
   "author": "",
   "license": "BSD-2-Clause",
   "devDependencies": {
-    "gulp": "~3.9.0",
-    "gulp-postcss": "~6.0.0",
-    "csswring": "~4.0.0",
     "autoprefixer": "~5.2.0",
-    "gulp-stylus": "~2.0.6",
-    "gulp-jade": "~1.1.0",
-    "jquery": "~2.1.4",
-    "gulp-imagemin": "~2.3.0",
     "browser-sync": "~2.8.2",
+    "csswring": "~4.0.0",
+    "gulp": "~3.9.0",
+    "gulp-jade": "~1.1.0",
+    "gulp-postcss": "~6.0.0",
+    "gulp-stylus": "~2.0.6",
+    "jquery": "~2.1.4",
     "lost": "~6.5.0",
-    "postcss-normalize": "~0.1.1"
+    "postcss-normalize": "~0.1.1",
+    "rucksack-css": "^0.8.2",
+    "rupture": "^0.6.1"
   }
 }
